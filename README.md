@@ -1,5 +1,5 @@
 ## Title
-Login to WEB server
+News and blogs for cryptocurrency
 
 ##
 Installation
