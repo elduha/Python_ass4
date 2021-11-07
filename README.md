@@ -50,3 +50,10 @@ db.create_all()
 url = 'https://coinmarketcap.com/currencies/' + cryptoName + '/news/'
 driver = webdriver.Firefox()
 driver.get(url)
+
+
+
+##
+Output
+Enter the cryptocurrency name and press button check. If coingecko have information about 
+this cryptocurrency , output will new or blogs about cryptocurrency.
