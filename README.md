@@ -13,26 +13,40 @@ JWT
 
 flaskweb
 
-beautifulsoup4
+pip install -U selenium
 
-selenium
+pip install bs4
 
 ##
 Usage
 
-Install the libraries
+Import those libraries
 
 
-Connect to DataBase(postgresql)
+Open a new Firefox browser
 
 
-Input crypto name and get new about them
+Load the page at the given URL
+
+
+Generate and set SECRET_KEY
+
+
+Set SQLALCHEMY_DATABASE_URI as postgreSQL or sqlite
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://user:password@localhost:port/database_name'
 
 
 
 ##
 Example
 
-Input crypto name - (bitcoin) press button check 
+from bs4 import BeautifulSoup as soup
+from selenium import webdriver
 
-Output - news or blogs from coingecko.com about bitcoin
+from flaskblog import db
+from flaskblog.models import Users
+db.create_all()
+
+url = 'https://coinmarketcap.com/currencies/' + cryptoName + '/news/'
+driver = webdriver.Firefox()
+driver.get(url)
