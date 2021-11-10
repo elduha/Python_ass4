@@ -1,14 +1,7 @@
 ## Title
 News and blogs for cryptocurrency
 
-##
-Team Members
 
-Duldiyev Raiymbek
-
-Amangeldiyev Abylaikhan
-
-Abdikali Yelzhas
 
 ##
 Installation
