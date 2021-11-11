@@ -4,15 +4,16 @@ News and blogs for cryptocurrency
 
 
 ##
-Installation
-
-
-##
 Team Members 
 
 Raiymbek Duldiev
+
+
 Yelzhas Abdikali
 
+
+##
+Installation
 
 
 Flask
